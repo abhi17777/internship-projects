@@ -1,0 +1,42 @@
+hello world.
+Goodbye World.
+The quick brown fox jumps over the lazy dog.
+You miss 100% of the shots you don't take.
+In the beginning God created the heavens and the earth.
+I have nothing to declare except my genius.
+To be, or not to be: that is the question.
+That which does not kill us makes us stronger.
+It does not matter how slowly you go as long as you do not stop.
+You must be the change you wish to see in the world.
+Don't watch the clock; do what it does. Keep going.
+Success is not the key to happiness. Happiness is the key to success.
+Life is what happens when you're busy making other plans.
+The only way to do great work is to love what you do.
+The quick brown fox jumps over the Lazy Dog.
+The early bird catches the worm.
+The pen is mightier than the sword.
+The Art of War.
+The hills are alive with the sound of music.
+The Fault in Our Stars.
+The Da Vinci Code.
+The Boy in the Striped Pyjamas.
+Hello, everyone!
+Welcome to the world of programming.
+This world is full of surprises!
+Programming is fun, fun, fun!
+Learning new skills is always exciting.
+Python is one of the most popular programming languages.
+Java is also widely used in software development.
+C++ is known for its performance and flexibility.
+JavaScript is essential for web development.
+Ruby on Rails simplifies building web applications.
+HTML and CSS are the building blocks of the web.
+SQL is necessary for working with databases.
+PHP powers many dynamic websites.
+Swift is the language for iOS app development.
+Kotlin is gaining popularity for Android development.
+C# is commonly used for Windows applications.
+Go (or Golang) is efficient and scalable.
+Rust offers memory safety without sacrificing performance.
+Assembly language provides low-level control over hardware.
+Linux is a powerful operating system.

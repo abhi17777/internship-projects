@@ -1,0 +1,42 @@
+Hello World, hello Spark
+Unit tests verify individual components of software to ensure they work correctly.
+Integration tests verify that different parts of the system work together as expected.
+End-to-end tests simulate real user scenarios to validate the entire system.
+Static analysis tools analyze code for potential issues and suggest improvements.
+Linters enforce coding standards and style guidelines to maintain consistency.
+IDEs provide powerful tools and features to support developers in writing code.
+Text editors offer lightweight and customizable environments for coding.
+Vim and Emacs are popular choices among experienced developers for their extensibility.
+Visual Studio Code is a versatile and feature-rich code editor preferred by many developers.
+Sublime Text is known for its speed and simplicity, making it a favorite among developers.
+Atom is highly customizable and open-source, attracting a vibrant community of users.
+Python's simplicity and readability make it an excellent choice for beginners and experienced developers alike.
+Java's platform independence and robust ecosystem make it a reliable choice for enterprise applications.
+C++'s performance and versatility make it suitable for a wide range of applications, from system software to games.
+JavaScript's ubiquity and flexibility make it essential for building interactive web applications.
+Ruby's elegant syntax and focus on developer happiness make it a joy to work with for many programmers.
+HTML's structure defines the content of web pages, while CSS's styling enhances their visual appeal and layout.
+SQL's powerful queries enable efficient manipulation of data in relational databases.
+PHP's server-side scripting capabilities facilitate the creation of dynamic and interactive web pages.
+Swift's safety features and modern syntax make it an ideal language for developing iOS.
+Goodbye World, goodbye Spark
+Life is like a box of chocolates, you never know what you're gonna get.
+Live long and prosper.
+The only thing we have to fear is fear itself.
+Hasta la vista, baby.
+The only true wisdom is in knowing you know nothing.
+The greatest glory in living lies not in never falling, but in rising every time we fall.
+Success is not final, failure is not fatal: It is the courage to continue that counts.
+Everything you can imagine is real.
+The only thing standing between you and your goal is the story you keep telling yourself.
+The only limit to our realization of tomorrow will be our doubts of today.
+It does not matter how slowly you go as long as you do not stop.
+Let's go, my Friend!
+You only live once!
+To be or not to be, that is the question!
+The Great Gatsby.
+The sound of silence.
+The Silence of the Lambs.
+The Girl with the Dragon Tattoo.
+The Green Mile.
+The Perks of Being a Wallflower.

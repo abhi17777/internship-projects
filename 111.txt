@@ -1,0 +1,94 @@
+def check_availability(item,quantity,stock):
+    for key,value in stock.items():
+        if key==item and value>=quantity:
+            return True
+    return False
+def place_order(item,quantity,stock,prices):
+    total_amount=0
+    for key,value in prices.items():
+        if key==item:
+            total_amount+=value*quantity
+    for key,value in stock.items():
+        if key==item:
+            stock[key]=value-quantity
+    print("Total amount:",total_amount)
+    print("Remaining stock details")
+    for key,value in stock.items():
+        print("{}:{}".format(key,value))
+    return 
+def main():
+    stock={"Sports Balls":56,"Shin guards":50,"Gloves":60,"Footwear":15}
+    prices={"Sports Balls":800,"Shin guards":190,"Gloves":370,"Footwear":950}
+    item=input("Enter an item:")
+    quantity=int(input("\nEnter a quantity:"))
+    if check_availability(item,quantity,stock)==True:
+        place_order(item,quantity,stock,prices)
+    else:
+        print("Item is not available")
+if __name__=="__main__":
+    main()
+---------------------------------------
+
+sales compi
+
+def find_winner(sales_rep1,sales_rep2):
+    s1=0
+    s2=0
+    for i in range(len(sales_rep1)):
+        if sales_rep1[i]>sales_rep2[i]:
+            s1+=1
+        elif sales_rep1[i]<sales_rep2[i]:
+            s2+=1
+    if s1>s2:
+        return "Sales Representative 1 is the winner"
+    elif s1<s2:
+        return "Sales Representative 2 is the winner"
+    elif s1==s2:
+        return "Both are winners"
+def main():
+    n=int(input("Enter the number of days:"))
+    sales_rep1=[]
+    sales_rep2=[]
+    print("Enter daily sales for Sales Representative 1:\n")
+    for i in range(n):
+        k=int(input())
+        sales_rep1.append(k)
+    print("Enter daily sales for Sales Representative 2:\n")
+    for i in range(n):
+        k=int(input())
+        sales_rep2.append(k)
+    res=find_winner(sales_rep1,sales_rep2)
+    print(res)
+if __name__=="__main__":
+    main()
+-------------------------------------------------
+def generate_code(product_details):
+    pro,des,month,year=product_details.split(":")
+    a=pro.replace(" ","")
+    b=des.replace(" ","")
+    if len(a)>=3 and len(b)>=3 and (int(month)>=1 and int(month)<=12)and len(year)==4:
+        if len(a)%2!=0:
+            procode=a[:3]
+            proc=procode.upper()
+            finalpro=proc
+        elif len(pro)%2==0:
+            procode=a[-3:]
+            proc=procode.upper()
+            finalpro=proc
+        desti=b.upper()
+        findes=desti[0]+desti[-1]
+        monthyear=month+year[2:]
+        finalprocode=finalpro+'/'+findes+'/'+monthyear
+        return finalprocode
+    else:
+        return "Invalid product details"
+def main():
+    a=input("Enter the details:\n")
+    y=generate_code(a)
+    print(y)
+if __name__=="__main__":
+    main()
+    
+        
+
+    
